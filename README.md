@@ -7,10 +7,10 @@ Guide on running a local Apache Spark cluster and interacting with it using Jupy
 1. run `docker pull jupyter/pyspark-notebook`
 2. run `docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook`
 3. option 1: copy and paste the url you see into chrome, I had `http://127.0.0.1:8888/?token=f7fd6c10e8609ea376ddfd2aead17356abfac033c31e94af`. It will open a Jupyter Notebook and you're done.
-4. option 2: in DataSpell select the `environment` tab in the menu bar and click `Add Jupyter Connection` fig. 1
+4. option 2: in DataSpell select the `environment` tab in the menu bar and click `Add Jupyter Connection`<sup>(fig. 1)</sup>
 5. select `Connect to Jupyter server using URL` and enter the url that contains `127.0.0.1:8888`
-7. once that is done, you can click on the Python interpret in the bottom right and select the one that is called `jupyter-remote` fig. 2
-8. check to ensure that Spark is running fig. 3
+7. once that is done, you can click on the Python interpret in the bottom right and select the one that is called `jupyter-remote`<sup>(fig. 2)</sup>
+8. check to ensure that Spark is running<sup>(fig. 3)</sup>
 
 fig. 1
 
